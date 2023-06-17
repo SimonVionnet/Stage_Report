@@ -1,0 +1,129 @@
+\documentclass[jcp,twocolumn,longbibliography,superscriptaddress]{revtex4-2}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{xspace}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage[caption=false]{subfig}
+\usepackage{xcolor}
+
+
+\usepackage{ifxetex}
+\ifxetex
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text]{STIXGeneral}
+\else
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\fi
+
+%\usepackage{caption}
+\newcommand{\tvd}[1]{|| #1 ||_{\text{TV}}}
+\newcommand{\tmix}[1][]{t_{\text{mix}}}
+\newcommand{\tcorr}[1][]{t_{\text{corr}}}
+\newcommand{\pit}[1]{\pi^{\{#1\}}}
+\newcommand{\tvdt}[1]{\text{TVD}^{\{#1\}}}
+\newcommand{\Ptrans}{\Phat^{\text{trans}}}
+\newcommand{\Path}[1]{\PCAL_{#1}}
+\newcommand{\Pres}{\Phat^{\text{res}}}
+\newcommand{\MC}{\Pi}
+\newcommand{\DISP}{\DCAL}
+\newcommand{\DISPQ}{\DCAL_q}
+\newcommand{\Ncards}{N_{cards}}
+\newcommand{\cfirst}{c_{\text{first-n}}}
+\newcommand{\ultranaive}{naive\xspace}
+\newcommand{\fabulousformula}{rift-average expression\xspace}
+\newcommand{\tchain}{\tau^{\text{chain}}}
+\newcommand{\tsim}{\tau_{\text{sim}}}
+\newcommand{\collisions}{\text{coll.}}
+\newcommand{\Area}{V}
+\newcommand{\MinArea}{V_0}
+\newcommand{\swell}{homothetic\xspace}
+\newcommand{\np}{non-periodic\xspace}
+\newcommand{\HD}{\texttt{HistoricDisks}\xspace}
+\newcommand{\piOne}{\pi^{(1)}}
+\newcommand{\nunit}{\nhat_{\text{colls}}}
+\newcommand{\nunitwallx}{\nhat_{\text{wall}}^{\pm \ehatvec_x} }
+\newcommand{\nwallx}{n_{\text{wall}}^{\pm x} }
+\newcommand{\nwallxy}{n_{\text{wall}}^{\pm \ehatvec_x \pm \ehatvec_y}}
+\newcommand{\npair}{n_{\text{pair}} }
+\newcommand{\vperp}{v^\perp}
+\newcommand{\vperpwall}{\vperp_{\text{wall}}}
+\newcommand{\vrelperp}{\Delta v^{\perp}} 
+\newcommand{\vrelperppair}{\vrelperp_{ij}}
+\newcommand{\aspect}[2]{\alpha\! =\! (#1 \! :  \! #2)}
+\newcommand{\aspectclean}[2]{ (#1 \! :  \! #2)}
+\newcommand{\RR}{R_v}
+\newcommand{\scalfac}{\gamma}
+
+\newcommand{\epsswell}{\epsilon_\alpha}
+\newcommand{\rhox}{\rho^*_x}
+\newcommand{\rhoy}{\rho^*_y}
+\newcommand{\rhoxy}{\rho^*}
+\newcommand{\delxmin}{\Delta x^{\min}}
+\newcommand{\delxminij}{\delxmin_{ij}}
+\newcommand{\delymin}{\Delta y^{\min}}
+\newcommand{\wallcolls}[2][]{w:(#2 #1)}
+\newcommand{\paircolls}{p:(ij)}
+\newcommand{\simasymp}{\stackrel{N  \to  \infty}{\longrightarrow}}
+\newcommand{\GDot}[2][]{\frac{\diff}{\diff t}G_{#2}^{\text{#1}}}
+
+%\newcommand{\rhobotao}{\rho}
+%\newcommand{\rhoxbotao}{\rho_x}
+%\newcommand{\rhoybotao}{\rho_y}
+
+%\newcommand{\colored}{} % Comment out for black version.
+\ifdefined\colored
+\newcommand{\revisionbl}[1]{{\color{red} #1}}
+\newcommand{\revisionyn}[1]{{\color{red} #1}}
+\newcommand{\revisionph}[1]{{\color{red} #1}}
+\newcommand{\revisionlc}[1]{{\color{red} #1}}
+\newcommand{\revisionacm}[1]{{\color{red} #1}}
+\newcommand{\revisionwk}[1]{{\color{red} #1}}
+\else
+\newcommand{\revisionbl}[1]{{#1}}
+\newcommand{\revisionyn}[1]{{#1}}
+\newcommand{\revisionph}[1]{{#1}}
+\newcommand{\revisionlc}[1]{{#1}}
+\newcommand{\revisionacm}[1]{{#1}}
+\newcommand{\revisionwk}[1]{{#1}}
+\fi
+
+\input{./Utilities/latexcommands_lennardjones_2023.tex}
+
+\newcommand{\prog}[1]{Alg.~\ref{alg:#1} (\sub{#1})}
+\newcommand{\EXP}[1]{\ECAL(#1)}
+\newcommand{\PROG}[2]{\ref{a:#1_#2} (\sub{#2})}
+\newcommand{\progg}[1]{Algorithm~\ref{alg:#1} (\sub{#1})}
+\newcommand{\proggg}[1]{Algorithm \sub{#1}}
+\newcommand{\progn}[2]{Alg.~\ref{alg:#1}}
+\newcommand{\prognn}[2]{\ref{alg:#1}}
+
+%New command
+\newcommand{\Ufast}{U_f}
+\newcommand{\Uslow}{U_s}
+\newcommand{\UTwoFour}{U_{24}}
+
+\newcommand{\depla}[2]{\gla #1 \rightarrow #2 \gra}
+\newcommand{\deplb}[2]{\glb #1 \rightarrow #2 \grb}
+\newcommand{\deplc}[2]{\glc #1 \rightarrow #2 \grc}
+\newcommand{\depld}[2]{\gld #1 \rightarrow #2 \grd}
+\newfloat{algorithm}{ht}{loa}\floatname{algorithm}{Algorithm }
+
+\begin{document}
+	
+	\title{Cut-off free Lennard-Jones sampling}
+	\author{Simon Vionnet}
+	\date{\today}
+	\maketitle
+	
+\end{document}
