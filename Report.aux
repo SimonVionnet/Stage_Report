@@ -13,11 +13,66 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
-\bibdata{ReportNotes}
-\bibstyle{apsrev4-2}
-\citation{REVTEX42Control}
-\citation{apsrev42Control}
 \newlabel{FirstPage}{{}{1}{}{Doc-Start}{}}
-\@writefile{toc}{\contentsline {title}{Cut-off free Lennard-Jones sampling}{1}{section*.1}\protected@file@percent }
-\newlabel{LastPage}{{}{1}{}{}{}}
-\gdef \@abspage@last{1}
+\@writefile{toc}{\contentsline {title}{$\mathcal  {O}\left (1 \right )$ Lennard-Jones sampling}{1}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section*.2}\protected@file@percent }
+\newlabel{eq:LennardJones}{{1}{1}{}{equation.1.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Lennard-Jones potential}}{1}{figure.1}\protected@file@percent }
+\newlabel{LennardJonesplot}{{1}{1}{Lennard-Jones potential}{figure.1}{}}
+\newlabel{eq: Flow}{{2}{1}{}{equation.1.2}{}}
+\newlabel{eq: Global Balance}{{3}{1}{}{equation.1.3}{}}
+\newlabel{eq: Local Balance}{{4}{1}{}{equation.1.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}The commonly used Algorithms}{1}{section*.3}\protected@file@percent }
+\newlabel{eq : Metropolis}{{5}{1}{}{equation.2.5}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces \texttt  {Metropolis}.}}{1}{algorithm.1}\protected@file@percent }
+\newlabel{alg:Metropolis}{{1}{1}{}{algorithm.1}{}}
+\citation{Berne2002}
+\citation{Berne2002}
+\citation{Rao1979}
+\citation{Faulkner2018}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces \texttt  {MTSMC}, One single step between two sample point}}{2}{algorithm.2}\protected@file@percent }
+\newlabel{alg:MTSMC}{{2}{2}{}{algorithm.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Potential seen by a particle moving in a fixed direction along its displacement in a periodic boundary box. Here we have particle moving along x axis at $y=0$ with a second particle (source of the interaction) at position $(0,1)$}}{2}{figure.2}\protected@file@percent }
+\newlabel{LennardJonesseen}{{2}{2}{Potential seen by a particle moving in a fixed direction along its displacement in a periodic boundary box. Here we have particle moving along x axis at $y=0$ with a second particle (source of the interaction) at position $(0,1)$}{figure.2}{}}
+\citation{Hoellmer2020}
+\citation{KapferKrauth2016}
+\newlabel{eq: LJcummulative}{{6}{3}{}{equation.2.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Integration of the rejection which is the potential seen by the particle where we keep the increasing portion of it shifted to keep continuity.}}{3}{figure.3}\protected@file@percent }
+\newlabel{LJCumulative}{{3}{3}{Integration of the rejection which is the potential seen by the particle where we keep the increasing portion of it shifted to keep continuity}{figure.3}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces \texttt  {ECMC}. Where X is ca configuration of particles positions that will be updated by the procedure}}{3}{algorithm.3}\protected@file@percent }
+\newlabel{alg:ECMC}{{3}{3}{}{algorithm.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Mean separation between pair of particles obtain for 100 runs of $10^5$ steps for each algorithm. We run the algorithms with 4 particles in a periodic box of size $L=10$ with an inverse temperature $\beta = 1$. The MTSMC parameter was $n=4$ and the ECMC chain length was $1.0$. Finally for the MTSMC and the Metropolis, the step size was taken with a uniform distribution in $\left [0,1 \right ]$}}{3}{table.1}\protected@file@percent }
+\newlabel{partialComparison}{{I}{3}{Mean separation between pair of particles obtain for 100 runs of $10^5$ steps for each algorithm. We run the algorithms with 4 particles in a periodic box of size $L=10$ with an inverse temperature $\beta = 1$. The MTSMC parameter was $n=4$ and the ECMC chain length was $1.0$. Finally for the MTSMC and the Metropolis, the step size was taken with a uniform distribution in $\glc 0,1 \grc $}{table.1}{}}
+\citation{KapferKrauth2016}
+\citation{KapferKrauth2016}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Cell-veto}{4}{section*.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Image extract from \cite  {KapferKrauth2016} to explain the Cell Veto algorithm. The events are trigger at cells level with a bounding event rate for each possible target cell with the active cell, the event is than confirmed at the particle level in the vetoing cell. Neighboring cells and surplus are treated separately.}}{4}{figure.4}\protected@file@percent }
+\newlabel{CVSchema}{{4}{4}{Image extract from \cite {KapferKrauth2016} to explain the Cell Veto algorithm. The events are trigger at cells level with a bounding event rate for each possible target cell with the active cell, the event is than confirmed at the particle level in the vetoing cell. Neighboring cells and surplus are treated separately}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces In this schema, the blue line is the bounding potential event rate and the red line correspond to the one of the actual potential. In the derivative method, a displacement is sample thanks to the bounding potential (x1 or x2). Then the position below the blue line is sample randomly, it is consider a true event when it is below the red line (like the green point), if the point is above, the event is a fake one..}}{4}{figure.5}\protected@file@percent }
+\newlabel{derivativeMethod}{{5}{4}{In this schema, the blue line is the bounding potential event rate and the red line correspond to the one of the actual potential. In the derivative method, a displacement is sample thanks to the bounding potential (x1 or x2). Then the position below the blue line is sample randomly, it is consider a true event when it is below the red line (like the green point), if the point is above, the event is a fake one.}{figure.5}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces \texttt  {Cell-Veto}. As for ECMC, we will sample point at a fixed chain length.}}{4}{algorithm.4}\protected@file@percent }
+\newlabel{alg:Cell-Veto}{{4}{4}{}{algorithm.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Each color on the tower represent a cell, the height is proportional to the rate $Q_{at}$. The point on the axis are random number used to know which cell trigger the event (Red dot $\rightarrow $ green cell). Note that when red dot value need to be compare only twice, the blue one need to be compare four time}}{5}{figure.6}\protected@file@percent }
+\newlabel{tower sampling}{{6}{5}{Each color on the tower represent a cell, the height is proportional to the rate $Q_{at}$. The point on the axis are random number used to know which cell trigger the event (Red dot $\rightarrow $ green cell). Note that when red dot value need to be compare only twice, the blue one need to be compare four time}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \textbf  {Left:} Cells in the far field must have finite rate; \textbf  {Center:} Histogram of the five colored cell rate, the mean is indicated by the vertical bar; \textbf  {Right:} The composites of height $Q_{mean}$ composed of at most two cells}}{5}{figure.7}\protected@file@percent }
+\newlabel{Walker's Method}{{7}{5}{\textbf {Left:} Cells in the far field must have finite rate; \textbf {Center:} Histogram of the five colored cell rate, the mean is indicated by the vertical bar; \textbf {Right:} The composites of height $Q_{mean}$ composed of at most two cells}{figure.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Mean separation between pair of particles obtain for 100 runs of $10^5$ steps for each algorithm. We run the algorithms with 4 particles in a periodic box of size $L=10$ with an inverse temperature $\beta = 1$. CVMC chain length used was $1.0$ and the cell size $2.0$}}{5}{table.2}\protected@file@percent }
+\newlabel{Comparison}{{II}{5}{Mean separation between pair of particles obtain for 100 runs of $10^5$ steps for each algorithm. We run the algorithms with 4 particles in a periodic box of size $L=10$ with an inverse temperature $\beta = 1$. CVMC chain length used was $1.0$ and the cell size $2.0$}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Perspectives and continuation}{5}{section*.5}\protected@file@percent }
+\citation{Berne2002}
+\bibdata{ReportNotes,./Utilities/General.bib,./Utilities/LennardJones.bib}
+\bibcite{Berne2002}{{1}{}{{}}{{}}}
+\bibcite{Rao1979}{{2}{}{{}}{{}}}
+\bibcite{Faulkner2018}{{3}{}{{}}{{}}}
+\bibcite{Hoellmer2020}{{4}{}{{}}{{}}}
+\bibcite{KapferKrauth2016}{{5}{}{{}}{{}}}
+\bibstyle{ieeetr}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Mean execution time per step against the number of particles in interaction. \textbf  {Important:} This was obtain on an early version of the implementation and may differ a bit for the actual implementation}}{6}{figure.8}\protected@file@percent }
+\newlabel{time Metropolis}{{8}{6}{Mean execution time per step against the number of particles in interaction. \textbf {Important:} This was obtain on an early version of the implementation and may differ a bit for the actual implementation}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Mean execution time per step against the number of particles in interaction. \textbf  {Important:} This was obtain on an early version of the implementation and may differ a bit for the actual implementation}}{6}{figure.9}\protected@file@percent }
+\newlabel{time CVMC}{{9}{6}{Mean execution time per step against the number of particles in interaction. \textbf {Important:} This was obtain on an early version of the implementation and may differ a bit for the actual implementation}{figure.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{6}{section*.6}\protected@file@percent }
+\newlabel{LastBibItem}{{5}{6}{}{section*.6}{}}
+\newlabel{LastPage}{{}{6}{}{}{}}
+\gdef \@abspage@last{6}

@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{Berne2002}
+B.~Hetényi, K.~Bernacki, and B.~J. Berne, ``{Multiple “time step” Monte
+  Carlo},'' {\em The Journal of Chemical Physics}, vol.~117, pp.~8203--8207, 10
+  2002.
+
+\bibitem{Rao1979}
+M.~Rao, C.~Pangali, and B.~Berne, ``On the force bias monte carlo simulation of
+  water: methodology, optimization and comparison with molecular dynamics,''
+  {\em Molecular Physics}, vol.~37, no.~6, pp.~1773--1798, 1979.
+
+\bibitem{Faulkner2018}
+M.~F. Faulkner, L.~Qin, A.~C. Maggs, and W.~Krauth, ``{All-atom computations
+  with irreversible Markov chains},'' {\em J. Chem. Phys.}, vol.~149, no.~6,
+  p.~064113, 2018.
+
+\bibitem{Hoellmer2020}
+P.~H\"{o}llmer, L.~Qin, M.~F. Faulkner, A.~C. Maggs, and W.~Krauth,
+  ``{JeLLyFysh-Version1.0~{\textemdash} a Python application for all-atom
+  event-chain Monte Carlo},'' {\em Comput. Phys. Commun.}, vol.~253, p.~107168,
+  2020.
+
+\bibitem{KapferKrauth2016}
+S.~C. Kapfer and W.~Krauth, ``{Cell-veto Monte Carlo algorithm for long-range
+  systems},'' {\em Phys. Rev. E}, vol.~94, p.~031302, 2016.
+
+\end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.4.26)  16 JUN 2023 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.4.26)  30 JUN 2023 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,21 +506,19 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (Utilities/latexcommands_lennardjones_2023.tex)
-\@float@every@algorithm=\toks31
-\c@algorithm=\count311
 Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 122.
+lass! (Proceeding with fingers crossed.) on input line 123.
 
 
 Class revtex4-2 Warning: Repair the float package.
 
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 122.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 122.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 122.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 123.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 123.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 123.
 
 (/home/Nounours/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
+\l__color_backend_stack_int=\count311
 \l__pdf_internal_box=\box73
 )
 
@@ -530,38 +528,38 @@ LaTeX Warning: Unused global option(s):
 (Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 
 (/home/Nounours/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
+\scratchcounter=\count312
 \scratchdimen=\dimen179
 \scratchbox=\box74
-\nofMPsegments=\count314
-\nofMParguments=\count315
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count316
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count315
 \MPscratchDim=\dimen180
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
-\everyMPtoPDFconversion=\toks33
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks32
 )
 (/home/Nounours/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -578,8 +576,8 @@ G,.JBIG2,.JB2,.eps]
 (/home/Nounours/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count319
-Package hyperref Info: Link coloring OFF on input line 122.
+\c@lstlisting=\count318
+Package hyperref Info: Link coloring OFF on input line 123.
 
 (Report.out) (Report.out)
 \@outlinefile=\write4
@@ -588,34 +586,376 @@ Package hyperref Info: Link coloring OFF on input line 122.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 122.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 123.
 \openout3 = `ReportNotes.bib'.
 
+\@float@every@algorithm=\toks33
+\c@algorithm=\count319
 
 
 Class revtex4-2 Warning: Assuming \noaffiliation for authors.
 
-No file Report.bbl.
-[1{/home/Nounours/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] (Report.aux
+LaTeX Font Info:    Trying to load font information for U+msa on input line 129
+.
+(/home/Nounours/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Trying to load font information for U+msb on input line 129
+.
+
+(/home/Nounours/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\left' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\right' on input line 129.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 129.
+
+<./Figures/LJ_plot.png, id=28, 462.528pt x 346.896pt>
+File: ./Figures/LJ_plot.png Graphic file (type png)
+<use ./Figures/LJ_plot.png>
+Package pdftex.def Info: ./Figures/LJ_plot.png  used on input line 140.
+(pdftex.def)             Requested size: 246.0pt x 184.49977pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+64.
+(/home/Nounours/.miktex/texmfs/install/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 188.
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+[1{/home/Nounours/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.197 	I
+        n fact Metropolis method is one of the elementary bricks for the Mul...
+ <./Figures/LJ_plot.png>]
+Underfull \hbox (badness 1237) in paragraph at lines 228--230
+\T1/cmr/m/n/10 In their paper they achieve to show a CPU time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
+
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 244--246
+\T1/cmr/m/n/10 particle (going to multiple particles will be simple
+ []
+
+<./Figures/LJ_seen.png, id=72, 462.528pt x 346.896pt>
+File: ./Figures/LJ_seen.png Graphic file (type png)
+<use ./Figures/LJ_seen.png>
+Package pdftex.def Info: ./Figures/LJ_seen.png  used on input line 249.
+(pdftex.def)             Requested size: 246.0pt x 184.49977pt.
+
+LaTeX Warning: Reference `eq: LJCumulative' on page 2 undefined on input line 2
+56.
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 254--257
+[] []\OT1/cmr/m/n/10 )$ \T1/cmr/m/n/10 with $\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/1
+0 U[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 ) = [][] []$
+ []
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.263 	\end{equation}
+                      <./Figures/LJ_seen.png>]
+<./Figures/LJ_cumulative.png, id=89, 462.528pt x 346.896pt>
+File: ./Figures/LJ_cumulative.png Graphic file (type png)
+<use ./Figures/LJ_cumulative.png>
+Package pdftex.def Info: ./Figures/LJ_cumulative.png  used on input line 266.
+(pdftex.def)             Requested size: 246.0pt x 184.49977pt.
+
+
+LaTeX Warning: Reference `ECMC' on page 3 undefined on input line 273.
+
+
+Overfull \hbox (10.06699pt too wide) in paragraph at lines 279--305
+ []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 312--313
+[]\T1/cmr/m/n/10 This algorithm still have a time complexity of
+ []
+
+
+LaTeX Warning: Reference `Cell-Veto' on page 3 undefined on input line 333.
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.334 	
+       
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.334 	
+        <./Figures/LJ_cumulative.png>]
+<./Figures/CellVetoSchema.png, id=105, 641.39626pt x 713.66624pt>
+File: ./Figures/CellVetoSchema.png Graphic file (type png)
+<use ./Figures/CellVetoSchema.png>
+Package pdftex.def Info: ./Figures/CellVetoSchema.png  used on input line 337.
+(pdftex.def)             Requested size: 172.19925pt x 191.5926pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+
+ []
+
+<./Figures/DerivativeMethod.png, id=109, 557.6835pt x 355.92975pt>
+File: ./Figures/DerivativeMethod.png Graphic file (type png)
+<use ./Figures/DerivativeMethod.png>
+Package pdftex.def Info: ./Figures/DerivativeMethod.png  used on input line 348
+.
+(pdftex.def)             Requested size: 221.3985pt x 141.30489pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (3.38689pt too wide) in paragraph at lines 357--393
+ []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.402 	T
+        o fasten the process, we will treat the far field all together inste...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.402 	T
+        o fasten the process, we will treat the far field all together inste...
+ <./Figures/CellVetoSchema.png> <./Figures/DerivativeMethod.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+
+ []
+
+<./Figures/towerMethod.png, id=121, 82.80937pt x 250.68657pt>
+File: ./Figures/towerMethod.png Graphic file (type png)
+<use ./Figures/towerMethod.png>
+Package pdftex.def Info: ./Figures/towerMethod.png  used on input line 408.
+(pdftex.def)             Requested size: 44.2782pt x 134.04138pt.
+
+Underfull \hbox (badness 1077) in paragraph at lines 413--414
+\T1/cmr/m/n/10 and so each tower have the same weight and can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
+
+ []
+
+<./Figures/WalkerMethod.png, id=123, 1134.2375pt x 354.32375pt>
+File: ./Figures/WalkerMethod.png Graphic file (type png)
+<use ./Figures/WalkerMethod.png>
+Package pdftex.def Info: ./Figures/WalkerMethod.png  used on input line 419.
+(pdftex.def)             Requested size: 246.0pt x 76.84312pt.
+
+LaTeX Warning: Reference `Cell-Veto' on page 5 undefined on input line 424.
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 424--425
+[]\T1/cmr/m/n/10 The far field treatment of Cell Veto Method
+ []
+
+<./Figures/timeEvolutionMetropolis.png, id=127, 462.528pt x 346.896pt>
+File: ./Figures/timeEvolutionMetropolis.png Graphic file (type png)
+<use ./Figures/timeEvolutionMetropolis.png>
+Package pdftex.def Info: ./Figures/timeEvolutionMetropolis.png  used on input l
+ine 447.
+(pdftex.def)             Requested size: 196.80075pt x 147.60088pt.
+<./Figures/timeEvolutionCVMC.png, id=128, 462.528pt x 346.896pt>
+File: ./Figures/timeEvolutionCVMC.png Graphic file (type png)
+<use ./Figures/timeEvolutionCVMC.png>
+Package pdftex.def Info: ./Figures/timeEvolutionCVMC.png  used on input line 45
+4.
+(pdftex.def)             Requested size: 196.80075pt x 147.60088pt.
+
+Underfull \hbox (badness 4084) in paragraph at lines 459--461
+\T1/cmr/m/n/10 execution times give results compatible with the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--461
+
+ []
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.463 	A
+         way to compare and adjust the time execution must be explore. A pos...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.463 	A
+         way to compare and adjust the time execution must be explore. A pos...
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.463 	A
+         way to compare and adjust the time execution must be explore. A pos...
+ <./Figures/towerMethod.png> <./Figures/WalkerMethod.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 463.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
+
+ []
+
+(Report.bbl
+Underfull \hbox (badness 1275) in paragraph at lines 9--12
+ []\T1/cmr/m/n/9 M. Rao, C. Pangali, and B. Berne, ``On the force
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 9--12
+ \T1/cmr/m/n/9 bias monte carlo simulation of water: methodology,
+ []
+
+
+Underfull \hbox (badness 4634) in paragraph at lines 19--23
+ \T1/cmr/m/n/9 application for all-atom event-chain Monte Carlo,''
+ []
+
+) [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.472 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.472 \end{document}
+                     <./Figures/timeEvolutionMetropolis.png> <./Figures/timeEvo
+lutionCVMC.png>] (Report.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 5CA22D4524A89F45C889C043C24BDDA7;228.
+(rerunfilecheck)             Checksum: E413A01ADE1198E86F362B1A061AF16B;924.
  ) 
 Here is how much of TeX's memory you used:
- 15769 strings out of 478266
- 241462 string characters out of 5839270
- 1851666 words of memory out of 5000000
- 35783 multiletter control sequences out of 15000+600000
- 515355 words of font info for 36 fonts, out of 8000000 for 9000
+ 16053 strings out of 478266
+ 246575 string characters out of 5839270
+ 1881666 words of memory out of 5000000
+ 35973 multiletter control sequences out of 15000+600000
+ 532141 words of font info for 85 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,5n,76p,272b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/Nounours/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0
+ 75i,29n,76p,740b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/Nounours/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecti0
 900.pk> </home/Nounours/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/
-ecrm1000.pk> </home/Nounours/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dp
-i600/ecbx1200.pk>
-Output written on Report.pdf (1 page, 17761 bytes).
+ecbx1000.pk> </home/Nounours/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dp
+i600/ectt0900.pk> </home/Nounours/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/
+ec/dpi600/ectt1000.pk> </home/Nounours/.miktex/texmfs/data/fonts/pk/ljfour/jkna
+ppen/ec/dpi600/ecbx0900.pk> </home/Nounours/.miktex/texmfs/data/fonts/pk/ljfour
+/jknappen/ec/dpi600/ecrm0900.pk> </home/Nounours/.miktex/texmfs/data/fonts/pk/l
+jfour/jknappen/ec/dpi600/ecrm1000.pk> </home/Nounours/.miktex/texmfs/data/fonts
+/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk></home/Nounours/.miktex/texmfs/instal
+l/fonts/type1/public/amsfonts/cm/cmbx6.pfb></home/Nounours/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmbx9.pfb></home/Nounours/.miktex/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/Nounours/.miktex/texmfs/in
+stall/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></home/Nounours/.miktex/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/Nounours/.miktex/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/Nounours/.miktex/
+texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/Nounours/.miktex
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/Nounours/.mikte
+x/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/Nounours/.mikt
+ex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/Nounours/.mik
+tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/Nounours/.mi
+ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/Nounours/.mi
+ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/Nounours/.mi
+ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/Nounours/.mi
+ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/Nounours/.
+miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/Nounours/
+.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/Nounours
+/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb></home/Nounour
+s/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Report.pdf (6 pages, 497744 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
